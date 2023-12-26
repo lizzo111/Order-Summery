@@ -1,0 +1,142 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160vh;
+}
+
+main {
+  width: 50%;
+  text-align: center;
+  border-radius: 20px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+
+  box-shadow: 0px 20px 40px -20px #0d30bd;
+  width: 450px;
+  height: 690px;
+}
+
+.girl {
+  border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+  color: #1f2e55;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.description {
+  color: #717fa6;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  width: 354px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+#offer {
+  background-color: #f7f9ff;
+  margin-left: 30px;
+  padding-left: 60px;
+  padding-right: 48px;
+  width: 280px;
+  border-radius: 20px;
+}
+
+.music {
+  display: inline-block;
+  transform: translate(-45px, 35px);
+  width: 48px;
+  height: 48px;
+}
+
+h3 {
+  color: #1f2e55;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  width: 117.19px;
+  display: inline-block;
+  transform: translate(-40px, 2px);
+}
+
+.price {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #717fa6;
+  display: inline-block;
+  transform: translate(-148px, 30px);
+}
+
+.change {
+  color: #382ae1;
+  display: inline-block;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  transform: translate(140px, -35px);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.change:hover {
+  color: #5670dc;
+}
+
+button {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 30px;
+  width: 388px;
+  height: 50px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 11px;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #5670dc;
+}
+
+.cancel {
+  margin-top: 40px;
+  color: #717fa6;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cancel:hover {
+  color: black;
+}
